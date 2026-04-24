@@ -1,13 +1,14 @@
 {
   "name": "@rn-lab/design-system",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Production-ready React Native design system SDK",
   "main": "dist/index.js",
   "react-native": "dist/index.js",
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
-      "require": "./dist/index.js",
+      "react-native": "./dist/index.js",
+      "default": "./dist/index.js",
       "types": "./dist/index.d.ts"
     }
   },

@@ -1,4 +1,4 @@
-# 🎨 @rohit/design-system
+# 🎨 @rn-lab/design-system
 
 A production-grade, highly scalable, and fully type-safe React Native Design System SDK. Built to enforce consistent typography, colors, and layouts across your applications with zero friction.
 
@@ -18,9 +18,9 @@ A production-grade, highly scalable, and fully type-safe React Native Design Sys
 This package is designed as an internal workspace dependency or published NPM module.
 
 ```sh
-npm install @rohit/design-system
+npm install @rn-lab/design-system
 # or
-yarn add @rohit/design-system
+yarn add @rn-lab/design-system
 ```
 
 _(Note: Requires `react >= 18.0.0` and `react-native >= 0.72.0`)_
@@ -36,7 +36,7 @@ The design system exposes several specialized utilities to architect your app's 
 Defines your global design language, including semantic colors, spacing, radius, and shadows. It automatically constructs and maps your light and dark mode tokens.
 
 ```tsx
-import { createProjectTheme } from "@rohit/design-system";
+import { createProjectTheme } from "@rn-lab/design-system";
 
 export const projectTheme = createProjectTheme({
   lightColors: {
@@ -61,7 +61,7 @@ export const projectTheme = createProjectTheme({
 Generates a structured, fully-typed typography configuration. It supports static variants (e.g., `InterBoldMd`) and dynamic functions for custom sizing requirements (e.g., `_InterBold(24)`).
 
 ```tsx
-import { createFontConfig } from "@rohit/design-system";
+import { createFontConfig } from "@rn-lab/design-system";
 
 export const fontConfig = createFontConfig({
   families: {
@@ -88,7 +88,7 @@ export const fontConfig = createFontConfig({
 Binds your initialized `projectTheme` to React Native hooks, ensuring strongly-typed access across your entire project.
 
 ```tsx
-import { createThemeKit } from "@rohit/design-system";
+import { createThemeKit } from "@rn-lab/design-system";
 
 export const { useTheme, createStyles, createDynamicStyles } =
   createThemeKit(projectTheme);
@@ -99,7 +99,7 @@ export const { useTheme, createStyles, createDynamicStyles } =
 The root provider that watches system theme changes, overrides, and supplies your theme context down the React tree.
 
 ```tsx
-import { ThemeProvider } from "@rohit/design-system";
+import { ThemeProvider } from "@rn-lab/design-system";
 
 export function App() {
   return (

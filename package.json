@@ -1,6 +1,6 @@
 {
-  "name": "@rohit/design-system",
-  "version": "1.0.0",
+  "name": "@rn-lab/design-system",
+  "version": "1.0.1",
   "description": "Production-ready React Native design system SDK",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

@@ -4,5 +4,5 @@ export type ThemeContextValue<TColors extends ColorScaleMap<string>> = {
     mode: "light" | "dark";
     toggleTheme: () => void;
 };
-export declare const ThemeContext: any;
+export declare const ThemeContext: import("react").Context<ThemeContextValue<any> | null>;
 //# sourceMappingURL=ThemeContext.d.ts.map

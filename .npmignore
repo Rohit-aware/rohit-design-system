@@ -1,0 +1,7 @@
+src/
+tests/
+.gitignore
+.github/
+*.md
+tsconfig.json
+package-lock.json

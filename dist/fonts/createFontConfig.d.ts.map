@@ -1,0 +1,1 @@
+{"version":3,"file":"createFontConfig.d.ts","sourceRoot":"","sources":["../../src/fonts/createFontConfig.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EACV,kBAAkB,EAClB,cAAc,EACd,eAAe,EACf,UAAU,EAMX,MAAM,SAAS,CAAC;AAoDjB,wBAAgB,gBAAgB,CAC9B,SAAS,SAAS,kBAAkB,EACpC,MAAM,SAAS,cAAc,EAE7B,MAAM,EAAE,eAAe,CAAC,SAAS,EAAE,MAAM,CAAC,GACzC,UAAU,CAAC,SAAS,EAAE,MAAM,CAAC,CAkD/B"}
